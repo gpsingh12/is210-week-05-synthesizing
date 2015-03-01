@@ -15,7 +15,7 @@ def fahrenheit_to_celsius(degrees):
             Celsius(float): return the decimal value of Celsius temperature.
 
     """
-    celsius = decimal.Decimal(((int(degrees)-32)*5)/9)
+    celsius = ((decimal.Decimal(degrees)-decimal.Decimal(32))*5)/9
 
     return celsius
 
